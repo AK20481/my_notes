@@ -1,3 +1,47 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+.ws-sp {
+  position: relative;
+}
+
+.ws-sp::before {
+  content: "·";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--gray);
+  opacity: 0.45;
+  font-size: 0.85em;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.ws-tab {
+  position: relative;
+  display: inline-block;
+  white-space: pre;
+  tab-size: 4;
+}
+
+.ws-tab::before {
+  content: "→";
+  position: absolute;
+  left: 0.15em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--gray);
+  opacity: 0.45;
+  font-size: 0.8em;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}
+
+pre .ws-tab,
+code .ws-tab {
+  display: inline;
+}
