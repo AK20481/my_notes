@@ -1,3 +1,3 @@
-[math]
-[math calculus]
-[math trig]
+[[math]]
+[[math calculus]]
+[[math trig]]
