@@ -101,6 +101,7 @@ a secant line intersects the curve in 2 points
 		<span style="font-size: 40px;">y minus y they gave you = (slope)(x minus x they gave you)</span>
 		the resulting equation is the tangent line at that point.
 <span style="font-size: 40px;">a tangent line is a slope that we know where it is</span>
+<span style="font-size: 40px;">the slope of the function is the height of the derivative</span>
 now that you know how to get it, here are some shortcuts
 	the derivative of a constant (y equals number) is always zero
 	the derivative of a linear line is the slope of that line i.e. derivative of y=kx is k
@@ -124,6 +125,7 @@ this is because you just need to replace x with x+h, no matter the function
 	yeah, the trigfunction was substituted for y, also known as the output
 	so, to remember
 		$\Huge\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$
+		the slope of the function is the height of the derivative
 	so, the way to solve it is to just remember a bunch of stuff and long time.
 	specifically
 		sinA(symbol)B=sinAcosB(symbol)cosAsinB
