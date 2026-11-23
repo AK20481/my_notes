@@ -124,7 +124,6 @@ this is because you just need to replace x with x+h, no matter the function
 	yeah, the trigfunction was substituted for y, also known as the output
 	so, to remember
 		$\Huge\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$
-		No, really. Your brain works differently depending on the time.
 	so, the way to solve it is to just remember a bunch of stuff and long time.
 	specifically
 		sinA(symbol)B=sinAcosB(symbol)cosAsinB
