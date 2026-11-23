@@ -1,9 +1,8 @@
 # log
 log negative is undefined. if a solution leads to something like this, it is extraneous
-to solve 2<sup>x</sup>=3, do log3/log2. or ln3/ln2. or any log base.
 log zx ~ log xz is y=x and yx=1 (on desmos)
 when $\Huge\log _ab = c$ then $\Huge a^c = b$
-$\Huge\log_{27}{1/3}=\frac{\log(1/3)}{\log(27)}$
+$\Huge\log_{27}{1/3}=\frac{\log(1/3)}{\log(27)}$ and $\Huge27^x=3$
 if question asks **continuous** compounding, do not do log/log or whatever, do deposit times e<sup>(rate times time)</sup> = final amount.
 for continous compounding, there is rule of 69.31485 divide interest rate (percent to decimal times 100) equals amount of time **to double**
 if they ask compounded monthly, you divide the percent by 12, add 1, exponent that times 12 and whatever years they are asking
