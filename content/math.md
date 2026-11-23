@@ -2,7 +2,7 @@
 log negative is undefined. if a solution leads to something like this, it is extraneous
 to solve 2<sup>x</sup>=3, do log3/log2. or ln3/ln2. or any log base.
 log zx ~ log xz is y=x and yx=1 (on desmos)
-when $\Huge\log a_b = c$ then $\Huge\log a^c = b$
+when $\Huge\log _ab = c$ then $\Huge a^c = b$
 $\Huge\log_{27}{1/3}=\frac{\log(1/3)}{\log(27)}$
 if question asks **continuous** compounding, do not do log/log or whatever, do deposit times e<sup>(rate times time)</sup> = final amount.
 for continous compounding, there is rule of 69.31485 divide interest rate (percent to decimal times 100) equals amount of time **to double**
@@ -112,7 +112,6 @@ Check your questions that you get wrong, and make them muscle memory
 you have to study, use your summer for it
 if an equation equals zero, that means of of the stuff in the equation equals zero
 to make 2 equations look like each other, intentionally make one equation harder
-you need to remember even the careless mistakes
 https://www.desmos.com/graphingshortcuts
 monthly membership means no initial fee
 tab

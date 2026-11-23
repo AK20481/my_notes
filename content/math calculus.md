@@ -2,10 +2,10 @@ there are 3 variables
 	time
 	velocity (distance over time, at an infinitesimally small point)
 	total distance
-when we measure these on graphs of
+when we measure these on 2 graphs of
 	x axis equals time
-	y axis equals velocity
-	y axis equals distance
+	y axis equals velocity (this is the first graph)
+	y axis equals distance (this is the second graph)
 	you will find that, at the end of the x axis, the
 		area (yx) under the velocity graph is the y-value of the distance graph
 		slope (y/x) of the distance graph is the y-value of the velocity graph
@@ -88,18 +88,19 @@ a secant line intersects the curve in 2 points
 		as h approaches zero, that is the slope of the tangent line at p, also called the derivative
 			**(for those asking later, derivative is when the difference quotient has h approaching zero)**
 		no shit? that's easy to see on the graph
-		yes, but that is a method to calculate the tangent line, that doesn't involve super small scales, as you will find as you use it
+		yes, but that is a method to calculate the derivative, that doesn't involve super small scales, as you will find as you use it
 	the derivative of a function can be expressed as
-		$\Huge f'(x)$    $\Huge y'$    $\Huge f^{(n)}(x)$    $\Huge\dot{x}$        $\Huge\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$
-		and $\Huge\frac{dy}{dx}$ not read as a fraction, by the way. it's read as "d y, d x."
+		$\Huge f'(x)$    $\Huge y'$    $\Huge f^{(n)}(x)$    $\Huge\dot{x}$    $\Huge\frac{dy}{dx}$        $\Huge\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$
+		and $\Huge\frac{dy}{dx}$ is not read as a fraction, by the way. it's read as "d y, d x."
 			by the way, you will keep seeing it. what d just means is delta (or difference if you forgot)
-	the second derivate of a function can be expressed as
+	the second derivative of a function can be expressed as
 		$\Huge f''(x)$    $\Huge y''$    $\Huge\frac{d^2y}{dx^2}$    $\Huge\frac{ddy}{dxx}$    $\Huge\ddot{x}$
-	so, when you get the derivative, that's not enough. you have to apply it with what the question is asking ("rate of change at this point")
+	so, when you get the derivative, that's not enough if they are asking for the tangent line.
 		first, you plugin the x value they asked to get the actual slope
 		then you have to do this shit
 		<span style="font-size: 40px;">y minus y they gave you = (slope)(x minus x they gave you)</span>
 		the resulting equation is the tangent line at that point.
+<span style="font-size: 40px;">a tangent line is a slope that we know where it is</span>
 now that you know how to get it, here are some shortcuts
 	the derivative of a constant (y equals number) is always zero
 	the derivative of a linear line is the slope of that line i.e. derivative of y=kx is k
@@ -111,6 +112,23 @@ now that you know how to get it, here are some shortcuts
 		yeah, I have no idea how the fuck that even exists
 by the way, "differentiate" means "finding the derivative"
 when they ask "find the equation of a function that has this point and this slope", you integrate the slope, not the tangent line
+# derivative (trig)
+if f(x)=sinx then f(x+h)=sin(x+h)
+if f(x)=cosx then f(x+h)=cos(x+h)
+this is because you just need to replace x with x+h, no matter the function
+	yeah, I am cooked. here are these formulas to memorize instead
+	$\Huge \frac{d\sin x}{dx}=\cos x$
+	$\Huge \frac{-d\sin x}{dx}=-\cos x$
+	$\Huge \frac{d\cos x}{dx}=-\sin x$
+	$\Huge \frac{-d\cos x}{dx}=\sin x$
+	yeah, the trigfunction was substituted for y, also known as the output
+	so, to remember
+		$\Huge\lim_{h \to 0}\frac{f(x+h)-f(x)}{h}$
+		No, really. Your brain works differently depending on the time.
+	so, the way to solve it is to just remember a bunch of stuff and long time.
+	specifically
+		sinA(symbol)B=sinAcosB(symbol)cosAsinB
+		cosA(symbol)B=cosAcosB(opposite symbol)cosAsinB
 # integration
 antiderivative
 	obviously it means opposite
